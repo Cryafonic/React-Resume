@@ -1,0 +1,4 @@
+/* makes the images on the page round  */
+.roundImage{
+    border-radius: 50%;
+}

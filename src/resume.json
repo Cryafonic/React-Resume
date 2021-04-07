@@ -1,0 +1,116 @@
+{
+    "basics": {
+      "name": "Brendon van der nest",
+      "label": "Programmer",
+      "picture": "https://media-exp1.licdn.com/dms/image/C4D03AQHPGNI5JhQwnA/profile-displayphoto-shrink_200_200/0/1589200681836?e=1621468800&v=beta&t=M6OrZ_Jt8xSx9-HnCre_NE7hphPXsrGG4pW-zJbCvLE",
+      "email": "Bvdn95@gmail.com",
+      "phone": "060 519 7406",
+      "website": "http://johndoe.com",
+      "summary": "I have a pleasant, friendly personality and enjoy challenges. Honesty, dedication, and loyalty are some of my strong points. I am a hard worker and a fast learner. I believe in good customer service and sorting out the problem quickly and efficiently. This makes me the best candidate for the position. Next, I want to continue my studies towards my next qualification. ",
+      "build": "This site has been built with the use of reactjs.",
+      "location": {
+        "city": "Germiston",
+        "countryCode": "ZA",
+        "region": "Gauteng",
+        "country": "South-Africa"
+      },
+      "profiles": [{
+        "network": "Twitter",
+        "username": "john",
+        "url": "http://twitter.com/john"
+      }]
+    },
+    "work": [{
+      "company": "Company",
+      "position": "President",
+      "website": "http://company.com",
+      "startDate": "2013-01-01",
+      "endDate": "2014-01-01",
+      "summary": "Description...",
+      "highlights": [
+        "Started the company"
+      ]
+    }],
+    "volunteer": [{
+      "organization": "Organization",
+      "position": "Volunteer",
+      "website": "http://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description...",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }],
+    "education": [{
+      "institution": "HyperionDev",
+      "area": "Software Enigeering",
+      "studyType": "Certification",
+      "startDate": "11/01/2021",
+      "endDate": "11/06/2021",
+      "gpa": "98%",
+      "courses": "Full Stack web development"
+    }],
+    "awards": [{
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }],
+    "publications": [{
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "website": "http://publication.com",
+      "summary": "Description..."
+    }],
+    "skills": [{
+      "name": "Software Engineer",
+      "level": "Intermediate",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Reactjs"
+      ]
+    }],
+    "languages": [{
+      "language": "English",
+      "fluency": "Native speaker"
+    }],
+    "interests": [{
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }],
+    "references": [{
+      "name": "Jane Doe",
+      "reference": "Reference..."
+    }],
+    "experience":[{
+        "company":"Orderwise",
+        "position":"Support Engineer",
+        "location":"Gauteng, Standton",
+        "startDate":"Oct - 2019",
+        "endDate":"Present",
+        "duty":"Providing customer and technical support for the software that is being built by Orderwise."
+    },
+    {
+        "company":"True Technoligies Inc",
+        "position":"Workshop Technician",
+        "location":"Eastern Cape, Jeffreys-bay",
+        "startDate":"Apr 2019",
+        "endDate":"Sep 2019",
+        "duty":"Form repairing customers computers/laptop to throubleshooting the ISP faults."
+    },
+    {
+        "company":"Digital Horizon",
+        "position":"Field Technician",
+        "location":"Gauteng, Benoni",
+        "startDate":"Feb 2018",
+        "endDate":"Oct 2018",
+        "duty":"Assisted with all remote enquiries and onsite flauts."
+    }]
+  }

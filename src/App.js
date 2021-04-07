@@ -1,25 +1,29 @@
-import logo from './logo.svg';
+import EmployeeDetails from './components/EmployeeDetails';
+import About from './components/About';
+import Experience from './components/Experience';
+import Education from './components/Education';
+import Skill from './components/Skill';
 import './App.css';
+const json = require('./resume.json');
 
-function App() {
+// reverence the components and sents them a property value to be formated.
+function App() {  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='backgoundColor'>
+      <div className="pageContent leftSideContent leftSideContentColor sticky">
+            <EmployeeDetails name={json.basics.name} profile={json.basics.picture} label={json.basics.label} email={json.basics.email} location={json.basics.location} />
+            <About summary={json.basics.summary} build={json.basics.build} />
+      </div>
+      <div className="pageContent rightSideContent">
+            <h6>Skills</h6>
+            <Skill keywords={json.skills[0].keywords} name={json.skills[0].name} level={json.skills[0].level}/>
+            <h6>Education</h6>
+            <Education education={json.education} />
+            <h6>Experience</h6>
+            <Experience experience={json.experience} />
+      </div>
     </div>
   );
-}
+};
 
 export default App;

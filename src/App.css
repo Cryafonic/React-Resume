@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+/* Styles body and sets a background */
+body {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  padding: 40px;
+  font-family: Arial;
 }
 
-.App-link {
-  color: #61dafb;
+/* sets all level 6 headings to large and underline. */
+h6 {
+  font-size: x-large;
+  text-decoration: underline;
+  margin: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* sets all the strong tags to a certain color. */
+strong {
+  color: #290149;
+}
+
+/* sticks the left contect panle to the the screen so that is follows while scrolling. */
+.sticky {
+  position: fixed;
+  width: 100%;
+}
+
+/* sets a margin and aline's text with a color. */
+.leftSideContent{
+  margin-left: 23%;
+  text-align: center;
+  background-color: #7eca9c;
+}
+
+/* repositions the right content to be on the right hand side. */
+.rightSideContent{
+  margin-left: 51%;
+  background-color: #7eca9c;
+}
+
+/* Styles the page content */
+.pageContent {
+  box-sizing: border-box;
+  width: 23%;
+  padding: 20px;
+  border: 0.5px gray solid ;
+  border-radius: 30px;
 }
